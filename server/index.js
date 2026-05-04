@@ -14,8 +14,6 @@ app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
 
-
-
 // sample API
 app.get("/api/data", (req, res) => {
   res.json({ message: "Hello from backend  mahipal pawar👋" });
